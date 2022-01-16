@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Interest</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .section
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    padding: 10px;
+                }
+        section
+                {
+                    height:500px;
+                    background-color: white;
+                                
+                }
+       
+        .img
+                {
+                    flex-basis:30%;
+                    transition: .4s ease-in;
+                    display: block;      
+                }
+        .img:hover
+                {
+                    transform: scale(1.1);
+                    z-index: 1;
+                }
+        img
+                {
+                    max-width: 100%;
+                }
+
+    
+        h1
+               {
+                    color:#d63650;
+                    font-size: 50px;
+                    margin:15px;
+                    transition: .3s ease;
+                    text-align: center;
+                }
+
+        h1:hover
+                {
+                    text-shadow:
+                    2px 2px #f59fad,
+                    4px 4px #f59fad;
+                    transform: translateY(-5px);
+                    -webkit-transform: translateY(-5px);  
+                }
+
+        h2
+            {
+                    text-align: center;
+                    margin: 10px;
+                    color:#d63650;
+                    font-size: 50px;
+                    transition: .3s ease;
+                }
+
+        h2:hover
+                {
+                    text-shadow:
+                    2px 2px #f59fad,
+                    4px 4px #f59fad;
+                    transform: translateY(-5px);
+                    -webkit-transform: translateY(-5px);    
+                }
+
+        p
+                {
+                    margin: 0;
+                    font-size: 30px;
+                    font-weight: 400;
+                    
+                }
+
+        .subtext
+                {
+                    font-size: 15px;
+                    font-weight: 300 ;
+                }
+        
+        .project-card
+                {
+                    width: 300px;
+                    height: 320px;
+                    box-shadow: 5px 5px 25px grey;
+                    margin: 10px;
+                    padding: 20px;
+                    transition: .8s;
+                    background-color: white;        
+                   
+                }
+
+        .project-card:hover
+                {
+                    background-color:#e8f1f3;
+                    padding: auto;
+                    transform:translate(0,-10px);
+                }
+
+        .sub-section-alternative 
+                {
+                    text-align: center;
+                    margin: 10px;
+                    color:black;
+                    font-size: 50px;
+                    transition: .3s ease;
+                }
+
+        .sub-section-alternative h2
+                {
+                    display: flex;
+                    flex-direction:column;
+                    text-align:center;                    
+                    justify-content: center;
+                 }
+
+        .project-cointainer
+                {
+                    display: flex ;
+                    justify-content: space-around;           
+                }
+
+        .project-image
+                {
+                    margin-top: 10px;
+                    width: 150px;
+                    border-radius: 125px
+                }
+
+        .parent
+                {
+                    display:flex;
+                    background-color: #ffc0cb;
+                }
+
+        .source
+                {
+                    text-align: center;
+                }   
+
+        video
+                {
+                    border-radius: 10px;
+                }
+
+        .vertical h2
+                {   
+                    font-size: 30px;
+                    text-align: center;
+                }
+
+        h3
+                {
+                    font-size:22px;
+                }
+        
+        .source h3
+                {
+                    color:#d63650;        
+                
+                }
+
+        .vertical p
+                {
+                    line-height: 25px;
+                    font-size: 15px;
+                    text-align: justify;
+                    padding-left: 60px;
+                    padding-right: 60px;
+                }
+
+        h3
+                {
+                    font-size:22px;
+                    text-align: center;
+                }
+
+        .imagemap
+
+                {
+                    width: 700px;
+                    display: block;
+                    margin-left: auto;
+                    margin-right: auto;
+                }
+                
+    </style>    
+</head>
+<body>
+
+<!--Navbar & section -->
+    <section class="hero">
+        <nav>
+            <img class="logo" src="images/222.png" alt="logo"/>         
+            <ul>
+                <li><b><a href="index.html">Home</a></b></li>
+                <li><b><a href="biodata.html">Biodata</a></b></li>
+                <li><b><a href="interest.html">Interests</a></b></li>
+                <li><b><a href="education.html">Education</b></a></li>
+                <li><b><a href="family.html">Family</b></a></li>
+                <li><b><a href="gallery.html">Gallery</b></a></li>
+                <li><b><a href="contact.html">Contact</b></a></li>  
+            </ul>
+        </nav>
+        
+         <!--section 2 -->
+        <div class="sub-section-alternative">
+        <h2>Interests</h2>        
+        <div class="project-cointainer">            
+            <div class="project-card">
+            <img class="project-image" src="images/20.png" alt="Photography"/>
+            <h3>Photography</h3>
+            <p class="subtext">
+                Normally, I tend to capture subjects like nature.
+                 It is because the view was astonishing especially during the sunset. At that time, it tells me, 
+                </p>
+            </div>
+    
+        <div class="project-card">
+        <img class="project-image" src="images/picture (14).png"  alt="Baking"/>
+            <h3>Baking</h3>
+            <p class="subtext">
+                I have loved baking since I was a teenager. My favourite dessert that I regularly make is bread pudding, marble cake and many more. 
+            </p>
+        </div>
+
+        <div class="project-card">    
+        <img class="project-image" src="images/2222.png" alt="Popcorn"/>
+            <h3>Binge Documentaries</h3>
+            <p class="subtext">
+                Normally, the genre that I look for is related to people, culture and also animals. It not 
+                new knowledge but somehow taught me to be open-minded about our surroundings. </p>
+           </div>  
+        </div>
+    </div>
+    </section>
+
+<!-- Section 2: Videos -->
+<h2>#favouritedocumentaries</h2>
+<br>
+<section class="parent">
+    <section class="source">
+    <div class="vertical">   
+    <video width="400" height="230" controls>
+        <source src="video/1.mp4" type="video/mp4">
+        <source src="video/1.mp4" type="video/ogg"> 
+         Your browser does not support the video tag.          
+      </video>
+      <h3><b>- SURVIVING BORNEO -</b></h3>
+      <p>It about a guy <a href="https://www.instagram.com/henrygolding/?hl=en"> Henry Golding</a> who is embarking on his journey to discover his identity in culture. 
+        This documentary was released in 2017 and only has 6 episodes. 
+        All the episodes in this documentary show the diversity of culture and lifestyle about Iban people.
+         In short, I highly recommend binge watching this documentary  and it is worth watching.</p>
+      
+    </section>
+
+    <section class="source">
+        <div class="vertical">
+      <video width="400" height="230" controls>
+        <source src="video/2.mp4" type="video/mp4">
+        <source src="video/2.mp4" type="video/ogg"> 
+         Your browser does not support the video tag.          
+      </video>
+      <h3><b>- FRAMING BRITNEY SPEARS -</b></h3>
+      <p>This documentary is about the top pop singer who is <a href="https://www.instagram.com/britneyspears/?hl=en">Britney Spears. </a> 
+        Throughout this show, it has included the ups & downs that Britney had faced during the rising popularity. 
+        Not just that, it also shows the side of the cruelty of paparazzi that has disgusted britney and crashed his music career.</p>
+      </p>
+    </section>  
+</section>
+</div>
+
+    <!--section 3 -->   
+<section class="imagemap">
+    <h3> - Click to see more documentaries-</h3>
+    <!-- Image Map Generated by http://www.image-map.net/ -->
+    <img src="images/phone.png" usemap="#image-map">
+<map name="image-map">
+    <area target="_self" alt="Majalah 3" title="Majalah 3" href="https://web.facebook.com/Majalah3TV3/?_rdc=1&amp;_rdr" coords="216,129,544,794" shape="rect">
+    <area target="_self" alt="Justin Bieber New Chapter" title="Justin Bieber New Chapter" href="https://www.youtube.com/watch?v=RUcLuQ17UV8&amp;list=PLsifFPg4DahKgB1YjWFYLnkQuGaqDdBh2" coords="689,150,686,161,677,171,674,228,677,276,679,312,671,362,671,415,677,445,674,483,676,503,674,543,671,578,668,604,668,625,668,659,668,688,668,726,686,773,964,773,965,600,967,446,962,284,961,151" shape="poly">
+    <area target="_self" alt="Jejak Rasul 2021" title="Jejak Rasul 2021" href="https://www.youtube.com/watch?v=KJm0vyuculE" coords="1322,456,304" shape="circle">
+</map>
+</section>
+
+<!--Footer -->
+
+     <footer>
+        <div class="footer-content"> 
+            <h3>Follow me on my social media</h3>
+            <ul class="socials">
+            <li><a href="https://www.instagram.com/_ainzaimi/"><img src="images/tw.png" width="40px" class="center"></a></li>
+            <li><a href="https://twitter.com/axxzxxxi"><img src="images/igg.png"width="40px"></a></li>
+            <li><a href="https://www.facebook.com/ain.zaimi.90"><img src="images/fb.png"width="41px"></a></li>
+            <li><a href="mailto:ainzaimi@gmail.com"><img src="images/email.png"width="42px"></a></li>     
+        </ul>
+        <div class="subtext">
+            <p>Phone contact: 011-19054122 <br> (All videos use credit to the owner)</p>
+        </div>
+    </div>   
+    </footer>
+
+
+</body>
+</html>
+    

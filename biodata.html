@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Biodata</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .section
+                {
+                    display: flex;
+                    align-items: center;
+                    justify-content:center;
+                    padding: 10px;
+                }
+        section
+                {
+                    height:500px;
+                    background-color:white;
+                }
+        .img
+                {
+                    flex-basis:30%;
+                    transition: .4s ease-in;
+                    display: block;      
+                }
+        .img:hover
+                {
+                    transform: scale(1.1);
+                    z-index: 1;
+                }
+        img
+                {
+                    max-width: 100%;
+                }
+
+        table, th, tr, td
+                {
+                    font-size: 18px;
+                }
+
+        h2      
+                {
+                    text-align: center;
+                    margin-top: 20px;
+                    margin-bottom: 0;
+                    font-size: 45px;
+                }
+                 
+       .skills-area
+                {
+                    display: flex;
+                    flex-direction: column;
+                    padding:0 20%;
+                }
+        .skill 
+                {
+                    position:relative;
+                    margin-bottom: 40px;
+                }
+        .skill-title
+                {
+                    font-size: 20px;
+                    margin-bottom: 10px;
+                }
+        .skill-bar
+                {
+                    width: 100%;
+                    background:rgb(233, 55, 87);
+                    height: 40px;
+                    z-index: -1;
+                    border-radius: 100px;
+                    position: absolute;
+                }
+       .skill-fill
+                {
+                    background: #aef7ec;
+                    height: 40px;
+                    border-radius: 100px;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                    padding-right: 30px;
+                    overflow: hidden;
+                }
+        .skills-percent
+                {
+                    font-size: 30px;
+                }
+        .mword 
+                {
+                    animation: mword 2s;
+                    width: 80%;
+                }
+
+        .mpoint 
+                {
+                    animation: mpoint 2s;
+                    width: 85%;
+                }
+        .canva 
+                {
+                    animation: canva 2s;
+                    width: 75%;
+                }
+
+        @keyframes mword {
+            from {
+                width:0;
+            }
+            to {
+                width:80%
+            }
+        }
+
+        @keyframes mpoint{
+            from {
+                width:0;
+            }
+            to {
+                width: 85%;
+            }
+        }
+        @keyframes canva {
+            from {
+                width:0;
+            }
+            to {
+                width:70%
+            }
+        }
+    </style>
+</head>
+<body>
+
+<!--Navbar & section -->
+    <section class="hero">
+        <nav>
+            <img class="logo" src="images/222.png" alt="logo"/>         
+            <ul>
+                <li><b><a href="index.html">Home</a></b></li>
+                <li><b><a href="biodata.html">Biodata</a></b></li>
+                <li><b><a href="interest.html">Interests</a></b></li>
+                <li><b><a href="education.html">Education</b></a></li>
+                <li><b><a href="family.html">Family</b></a></li>
+                <li><b><a href="gallery.html">Gallery</b></a></li>
+                <li><b><a href="contact.html">Contact</b></a></li>  
+            </ul>
+        </nav>
+        <div class="section">
+            <div class="img">
+                    <a target="_blank" href="images/bio (1).png">
+                    <img src="images/bio (1).png" alt="Me" width="340px" />
+                    </a>
+            </div>
+
+            <!--Biodata content-->
+            <div class="content">
+                <h1>Biodata</h1>
+                    <table>
+                        <tr>
+                            <td><b>Name</b></td>
+                            <td> : Ain' Nur Adillah Binti Zaimi</td>
+                        </tr>
+                        <tr>
+                            <td><b>Matrix Number</b></td>
+                            <td>: 2019280852</td>
+                        </tr>
+                        <tr>
+                            <td><b>Age</b></td>
+                            <td>: 21 years old</td>
+                        </tr>
+                         <tr>
+                            <td><b>Gender</b></td>
+                            <td>: Female</td>
+                         </tr>
+                         <tr>
+                            <td><b>Birth date</b></td>
+                            <td>: 18 August 2001</td>
+                         </tr>
+                         <tr>
+                            <td><b>Nationality</b></td>
+                            <td>: Malaysian</td>
+                         </tr>
+                         <tr>
+                            <td><b>Height</b></td>
+                            <td>: 5ft 04inch</td>
+                        </tr>
+                        <tr>
+                            <td><b>Siblings</b></td>
+                            <td>: Two</td>
+                         <tr>
+                            <td><b>Born</b></td>
+                            <td>: Hospital Besar Melaka</td>
+                         </tr>
+                         <tr>
+                            <td><b>Address</b></td>
+                            <td>: Masjid Tanah, Melaka</td>
+                         </tr>
+                    </table>
+                </div>
+             </div>
+                 
+            </div>
+            </div>
+        
+        </div>
+     </section>
+
+<!--section 2 : Skills-->
+    <h2> Skills</h2>
+    <div class="skills-area">
+        <div class="skill">
+            <div class="skill-title"> Microsoft Word </div>
+            <div class="skill-bar"></div>
+            <div class="mword skill-fill">
+            <span class="skill-percent"> 80% </span>
+        </div>
+    </div>
+    <div class="skill">
+            <div class="skill-title">Microsoft PowerPoint</div>
+            <div class="skill-bar"></div>
+            <div class="mpoint skill-fill">
+            <span class="skill-percent"> 85% </span>
+        </div>
+    </div>
+    <div class="skill">
+            <div class="skill-title"> Canva</div>
+            <div class="skill-bar"></div>
+            <div class="canva skill-fill">
+            <span class="skill-percent">70%</span>
+        </div>
+    </div>
+</div>
+
+<!--Footer -->
+    <footer>
+        <div class="footer-content"> 
+            <h3>Follow me on my social media</h3>
+            <ul class="socials">
+            <li><a href="https://www.instagram.com/_ainzaimi/"><img src="images/tw.png" width="40px" class="center"></a></li>
+            <li><a href="https://twitter.com/axxzxxxi"><img src="images/igg.png"width="40px"></a></li>
+            <li><a href="https://www.facebook.com/ain.zaimi.90"><img src="images/fb.png"width="41px"></a></li>
+            <li><a href="mailto:ainzaimi@gmail.com"><img src="images/email.png"width="42px"></a></li>     
+        </ul>
+        <div class="subtext">
+            <p>Phone contact: 011-19054122</p>
+        </div>
+    </div>   
+    </footer>
+
+</body>
+</html>
+    
